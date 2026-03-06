@@ -7,10 +7,11 @@ public class Converter{
       return Value;
    }
    public int ConvertExplicitly(decimal Doubler){
-      int Converted = (int)Doubler;
+      int Converted = Convert.ToInt32(Doubler);
       return Converted;
    }
 }
+
 
 
 
