@@ -2,15 +2,16 @@
 
 public class Converter{
    //Add your code here
-   public double ConvertImplicitly(int Number){
-      double Value = Number;
+   public int ConvertImplicitly(int Number){
+      Number = decimal Value;
       return Value;
    }
-   public int ConvertExplicitly(double Doubler){
+   public int ConvertExplicitly(decimal Doubler){
       int Converted = (int)Doubler;
       return Converted;
    }
 }
+
 
 
 
